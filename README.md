@@ -1,16 +1,18 @@
-# myapp
+# 🧠 AI Dojo
 
-A new Flutter project.
+A sleek, offline-first quiz app to test your knowledge of Machine Learning concepts.
 
-## Getting Started
+## ✨ Key Features
 
-This project is a starting point for a Flutter application.
+*   **Offline Access:**  Study anytime, anywhere – no internet connection required.
+*   **Multiple Quiz Modes:**
+    *   **Time Trial:**  Race against the clock and challenge your speed.
+    *   **Endless Mode:**  Dive deep into ML topics with unlimited questions.
+    *   **Review Mode:**  Focus on previously answered questions, track your progress, and master challenging concepts.
+*   **Extensive Question Bank:**  Hundreds of carefully crafted multiple-choice questions covering a wide range of ML topics.
+*   **Progress Tracking:**  Monitor your learning journey and identify areas for improvement.
+*   **Minimalist Design:**  A clean and intuitive interface for a distraction-free learning experience.
 
-A few resources to get you started if this is your first Flutter project:
+## 🚀 Getting Started
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1.  **Clone the repository:**
