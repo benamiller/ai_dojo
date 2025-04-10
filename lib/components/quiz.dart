@@ -32,11 +32,25 @@ class _QuizState extends State<Quiz> {
   Widget build(BuildContext context) {
     return Stack(
       children: [
-        Positioned(
-          top: 0,
+        Padding(
+          padding: const EdgeInsets.all(8),
           child: Column(
             children: [
-              Card(child: Text(widget.questions[_quizIndex].questionText)),
+              Text(widget.questions[_quizIndex].questionText),
+              const SizedBox(height: 12),
+              ...widget.questions[_quizIndex].answerOptions.map((answer) {
+                return Column(
+                  children: [
+                    Text(answer),
+                    ElevatedButton(
+                      onPressed: () {
+                        // Handle answer selection
+                      },
+                      child: Text("-"),
+                    ),
+                  ],
+                );
+              }).toList(),
             ],
           ),
         ),
