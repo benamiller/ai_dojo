@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'components/mode_card_button.dart';
 
 void main() {
   runApp(const MyApp());
@@ -111,6 +112,24 @@ class _HomePageState extends State<HomePage> {
               style: Theme.of(context).textTheme.headlineMedium,
             ),
             const Text("Hello"),
+            ModeCardButton(
+              label: "Card 1",
+              onTap: () {
+                print("Card 1");
+              },
+            ),
+            ModeCardButton(
+              label: "Card 2",
+              onTap: () {
+                print("Card 2");
+              },
+            ),
+            ModeCardButton(
+              label: "Card 3",
+              onTap: () {
+                print("Card 3");
+              },
+            ),
           ],
         ),
       ),
