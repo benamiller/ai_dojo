@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'components/mode_card_button.dart';
+import 'screens/rush.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,6 +14,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'AI Dojo',
+      initialRoute: '/',
+      routes: {'/rush': (context) => const Rush(title: "Rush Mode")},
       theme: ThemeData(
         // This is the theme of your application.
         //
@@ -116,6 +119,7 @@ class _HomePageState extends State<HomePage> {
               label: "Card 1",
               onTap: () {
                 print("Card 1");
+                Navigator.pushNamed(context, '/rush');
               },
             ),
             ModeCardButton(
